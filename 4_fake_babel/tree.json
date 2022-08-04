@@ -1,0 +1,95 @@
+{
+  "tag": "div",
+  "attrs": {
+    "className": {
+      "type": "str",
+      "value": "container"
+    }
+  },
+  "children": [
+    {
+      "tag": "p",
+      "attrs": {
+        "style": {
+          "type": "ref",
+          "value": "style"
+        }
+      },
+      "children": [
+        {
+          "type": "str",
+          "value": ""
+        },
+        {
+          "type": "expr",
+          "value": "greet('scott')"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "str",
+              "value": "this is jsx-like code"
+            }
+          ]
+        },
+        {
+          "tag": "i",
+          "attrs": {
+            "className": {
+              "type": "str",
+              "value": "icon"
+            }
+          },
+          "children": []
+        },
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "str",
+              "value": "parsing it now"
+            }
+          ]
+        },
+        {
+          "tag": "img",
+          "attrs": {
+            "className": {
+              "type": "str",
+              "value": "icon"
+            }
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "input",
+      "attrs": {
+        "type": {
+          "type": "str",
+          "value": "button"
+        },
+        "value": {
+          "type": "str",
+          "value": "i am a button"
+        }
+      },
+      "children": []
+    },
+    {
+      "tag": "em",
+      "attrs": {},
+      "children": []
+    }
+  ]
+}
